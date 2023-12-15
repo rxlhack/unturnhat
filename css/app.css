@@ -16,13 +16,33 @@
 	font-size: 20px;
 }
 
+.img-line{
+	margin-left: 10px;
+	margin-right: 10px; /* Відступ зправа */
+	margin-bottom: 10px; /* Відступ знизу */
+}
+
+.vk {
+	float: left;
+	padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+	vertical-align: top;
+}
+
+.image-scale{
+	transform: 1s;
+}
+
+.image-scale:hover{
+	transform: scale(1.05);
+}
 
 .footer {
 	background-color: pink;
 }
 
 
-.content {
+.content {	
 	color: #fff;
 	text-align:center;
 	margin: 10px 10px 10px 10px;
@@ -34,9 +54,6 @@
 	padding:0 15px;
 	margin:0 auto;
 	width:100%
-	
-
-	
 }
 
 .button {
@@ -59,13 +76,13 @@
 }
 
 .button-blue:hover {
-	color: ; #fff;
+	color: #fff;
 	background-color: #0069d9;
 	border-color: #0062cc;
 }
 
 .button-blue:focus {
-	color: ; #fff;
+	color: #fff;
 	background-color: #0069d9;
 	border-color: #0062cc;
 	box-shadow: 0 0 0 0.2rem rgba (38,143,255,.5);
